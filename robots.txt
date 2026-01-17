@@ -1,0 +1,55 @@
+# CelebEats.com Robots.txt
+# Evidence-based celebrity dining coverage
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://celebeats.com/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
+
+# Disallow admin/internal paths (if any exist)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_internal/
+Disallow: /search?
+
+# Allow important assets
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Googlebot specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bingbot specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# GPTBot (OpenAI)
+User-agent: GPTBot
+Allow: /
+
+# Claude-Web (Anthropic)
+User-agent: Claude-Web
+Allow: /
+
+# Google-Extended (AI training)
+User-agent: Google-Extended
+Allow: /
+
+# Common AI crawlers - allowing for AEO optimization
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
