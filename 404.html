@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found - 404 | CelebEats</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Explore celebrity restaurants, dining guides, and more on CelebEats.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="header">
+    <div class="header__inner">
+      <a href="/" class="logo">Celeb<span class="logo__accent">Eats</span></a>
+      <button class="nav-toggle" aria-label="Open menu"><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span></button>
+      <nav class="nav">
+        <button class="nav__close">&times;</button>
+        <ul class="nav__list">
+          <li><a href="/cities/" class="nav__link">Cities</a></li>
+          <li><a href="/celebrities/" class="nav__link">Celebrities</a></li>
+          <li><a href="/restaurants/" class="nav__link">Restaurants</a></li>
+          <li><a href="/dishes/" class="nav__link">Dishes</a></li>
+          <li><a href="/at-home/" class="nav__link">At-Home</a></li>
+          <li><a href="/collections/" class="nav__link">Collections</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section" style="min-height: 60vh; display: flex; align-items: center;">
+      <div class="container" style="text-align: center;">
+        <div style="font-size: 6rem; font-family: var(--font-display); color: var(--color-primary); margin-bottom: var(--space-4);">404</div>
+        <h1 style="font-size: var(--text-3xl); margin-bottom: var(--space-4);">Page Not Found</h1>
+        <p style="color: var(--color-gray-600); max-width: 500px; margin: 0 auto var(--space-6);">
+          Looks like this table isn't reserved. The page you're looking for doesn't exist or has been moved.
+        </p>
+        <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+          <a href="/" class="btn btn--primary">Back to Home</a>
+          <a href="/restaurants/" class="btn btn--outline">Browse Restaurants</a>
+        </div>
+
+        <div style="margin-top: var(--space-12);">
+          <h2 style="font-size: var(--text-lg); margin-bottom: var(--space-4);">Popular Pages</h2>
+          <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+            <a href="/cities/los-angeles/" style="color: var(--color-primary);">Los Angeles</a>
+            <a href="/cities/new-york/" style="color: var(--color-primary);">New York</a>
+            <a href="/celebrities/" style="color: var(--color-primary);">Celebrities</a>
+            <a href="/collections/most-spotted-la/" style="color: var(--color-primary);">Most Spotted LA</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><div class="footer__logo">Celeb<span style="color: var(--color-primary);">Eats</span></div><p class="footer__tagline">Celebrities. Restaurants. Real Orders. Real Cooking.</p></div>
+        <div><h3 class="footer__heading">Explore</h3><ul class="footer__links"><li><a href="/cities/" class="footer__link">Cities</a></li><li><a href="/celebrities/" class="footer__link">Celebrities</a></li><li><a href="/restaurants/" class="footer__link">Restaurants</a></li></ul></div>
+        <div><h3 class="footer__heading">About</h3><ul class="footer__links"><li><a href="/about/" class="footer__link">About Us</a></li></ul></div>
+        <div><h3 class="footer__heading">Legal</h3><ul class="footer__links"><li><a href="/legal/privacy/" class="footer__link">Privacy</a></li><li><a href="/legal/terms/" class="footer__link">Terms</a></li></ul></div>
+      </div>
+      <div class="footer__bottom"><p>&copy; 2025 CelebEats.com. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.querySelector('.nav-toggle');const nav = document.querySelector('.nav');const navClose = document.querySelector('.nav__close');
+    navToggle?.addEventListener('click', () => nav.classList.add('is-open'));navClose?.addEventListener('click', () => nav.classList.remove('is-open'));
+  </script>
+</body>
+</html>
