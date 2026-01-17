@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://celebeats.com/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://celebeats.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://celebeats.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://celebeats.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://celebeats.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://celebeats.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://celebeats.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://celebeats.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://celebeats.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://celebeats.com/"/>
+  </url>
+
+  <!-- Cities Section -->
+  <url>
+    <loc>https://celebeats.com/cities/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://celebeats.com/cities/los-angeles/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://celebeats.com/cities/los-angeles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://celebeats.com/es/cities/los-angeles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://celebeats.com/ja/cities/los-angeles/"/>
+  </url>
+  <url>
+    <loc>https://celebeats.com/cities/new-york/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://celebeats.com/cities/miami/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://celebeats.com/cities/toronto/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Celebrities Section -->
+  <url>
+    <loc>https://celebeats.com/celebrities/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://celebeats.com/celebrities/beyonce/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://celebeats.com/celebrities/beyonce/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://celebeats.com/es/celebrities/beyonce/"/>
+  </url>
+
+  <!-- Restaurants Section -->
+  <url>
+    <loc>https://celebeats.com/restaurants/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://celebeats.com/restaurants/craigs-west-hollywood/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://celebeats.com/restaurants/craigs-west-hollywood/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://celebeats.com/es/restaurants/craigs-west-hollywood/"/>
+  </url>
+
+  <!-- Dishes Section -->
+  <url>
+    <loc>https://celebeats.com/dishes/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- At-Home Section -->
+  <url>
+    <loc>https://celebeats.com/at-home/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Collections Section -->
+  <url>
+    <loc>https://celebeats.com/collections/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://celebeats.com/about/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Spanish Language Pages -->
+  <url>
+    <loc>https://celebeats.com/es/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- French Language Pages -->
+  <url>
+    <loc>https://celebeats.com/fr/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Japanese Language Pages -->
+  <url>
+    <loc>https://celebeats.com/ja/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Korean Language Pages -->
+  <url>
+    <loc>https://celebeats.com/ko/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
