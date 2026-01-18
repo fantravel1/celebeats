@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carbone NYC - Celebrity Italian Restaurant Greenwich Village | CelebEats</title>
+  <meta name="description" content="Carbone is NYC's hottest celebrity Italian restaurant. Famous for spicy rigatoni vodka, theatrical service, and A-list clientele including Drake, Bella Hadid, and Anna Wintour.">
+  <meta name="keywords" content="Carbone NYC, Carbone restaurant, spicy rigatoni vodka, celebrity Italian NYC, Greenwich Village restaurants">
+  <link rel="canonical" href="https://celebeats.com/restaurants/carbone/">
+
+  <link rel="alternate" hreflang="en" href="https://celebeats.com/restaurants/carbone/">
+  <link rel="alternate" hreflang="x-default" href="https://celebeats.com/restaurants/carbone/">
+
+  <meta property="og:title" content="Carbone NYC - Celebrity Italian Restaurant">
+  <meta property="og:description" content="The hottest reservation in NYC. Retro Italian-American with legendary spicy rigatoni.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:url" content="https://celebeats.com/restaurants/carbone/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Restaurant",
+        "name": "Carbone",
+        "description": "Retro Italian-American restaurant in Greenwich Village known for theatrical service, celebrity clientele, and the famous spicy rigatoni vodka.",
+        "url": "https://celebeats.com/restaurants/carbone/",
+        "servesCuisine": ["Italian-American", "Italian"],
+        "priceRange": "$$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "181 Thompson Street",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "postalCode": "10012",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7275,
+          "longitude": -74.0003
+        },
+        "telephone": "+1-212-254-3000",
+        "openingHours": ["Mo-Su 17:00-23:00"],
+        "acceptsReservations": true,
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "reviewCount": "2500"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://celebeats.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Restaurants", "item": "https://celebeats.com/restaurants/"},
+          {"@type": "ListItem", "position": 3, "name": "Carbone", "item": "https://celebeats.com/restaurants/carbone/"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I get a reservation at Carbone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Carbone reservations are notoriously difficult. They open on Resy exactly 30 days in advance at midnight. Set an alarm, have your payment ready, and refresh constantly. Walk-ins are occasionally possible for bar seating on weeknights. Many celebrities use concierge services or have standing reservations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I order at Carbone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The must-orders at Carbone include: Spicy Rigatoni Vodka (the signature dish), Veal Parmesan (massive and shareable), Caesar Salad (prepared tableside), Meatballs, and the Cheesecake. The theatrical tableside preparations are part of the Carbone experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What celebrities eat at Carbone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Carbone's celebrity guest list includes Drake, Bella Hadid, Anna Wintour, Rihanna, Kim Kardashian, A$AP Rocky, and many fashion industry insiders. It's especially popular during Fashion Week and has become a must-visit for A-listers visiting NYC."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --color-primary: #1a1a2e;
+      --color-secondary: #c9a962;
+      --color-accent: #e8d5b7;
+      --color-bg: #fafafa;
+      --color-text: #2d2d2d;
+      --color-text-light: #666;
+      --spacing-xs: 0.5rem;
+      --spacing-sm: 1rem;
+      --spacing-md: 1.5rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 3rem;
+      --font-display: Georgia, 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+      --tier-a: #1b5e20;
+      --tier-b: #0277bd;
+      --carbone-red: #8b0000;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: var(--color-primary);
+      padding: var(--spacing-sm) var(--spacing-md);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .breadcrumb {
+      background: white;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: 0.85rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .breadcrumb-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .breadcrumb a {
+      color: var(--color-secondary);
+      text-decoration: none;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--carbone-red) 0%, var(--color-primary) 100%);
+      color: white;
+      padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .hero-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-icon {
+      font-size: 4rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 2.5rem;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .hero-tagline {
+      color: var(--color-accent);
+      font-size: 1.2rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-meta {
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-lg);
+      flex-wrap: wrap;
+      margin-bottom: var(--spacing-md);
+    }
+
+    .hero-meta-item {
+      text-align: center;
+    }
+
+    .hero-meta-value {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--color-secondary);
+    }
+
+    .hero-meta-label {
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+
+    .main { max-width: 800px; margin: 0 auto; padding: var(--spacing-md); }
+
+    .aeo-answer {
+      background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+      border-left: 4px solid var(--color-secondary);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+
+    .aeo-answer h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .section {
+      background: white;
+      border-radius: var(--border-radius);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+      border-bottom: 2px solid var(--color-accent);
+      padding-bottom: var(--spacing-xs);
+    }
+
+    .signature-dish {
+      background: linear-gradient(135deg, var(--carbone-red) 0%, #a00 100%);
+      color: white;
+      border-radius: var(--border-radius);
+      padding: var(--spacing-lg);
+      margin-bottom: var(--spacing-md);
+      text-align: center;
+    }
+
+    .signature-dish h3 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .signature-dish p {
+      opacity: 0.9;
+    }
+
+    .menu-grid {
+      display: grid;
+      gap: var(--spacing-sm);
+    }
+
+    .menu-item {
+      background: var(--color-bg);
+      padding: var(--spacing-sm);
+      border-radius: var(--border-radius);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .menu-item h4 {
+      font-size: 1rem;
+      color: var(--color-primary);
+    }
+
+    .menu-item p {
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+    }
+
+    .menu-item .price {
+      font-weight: 600;
+      color: var(--carbone-red);
+    }
+
+    .celebrity-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: var(--spacing-sm);
+    }
+
+    .celebrity-chip {
+      background: var(--color-bg);
+      padding: var(--spacing-xs) var(--spacing-sm);
+      border-radius: 20px;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+
+    .evidence-badge {
+      display: inline-flex;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .evidence-a { background: #e8f5e9; color: var(--tier-a); }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--spacing-sm);
+    }
+
+    .info-item {
+      background: var(--color-bg);
+      padding: var(--spacing-sm);
+      border-radius: var(--border-radius);
+    }
+
+    .info-item h4 {
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+      margin-bottom: 4px;
+    }
+
+    .info-item p {
+      font-size: 1rem;
+      color: var(--color-primary);
+      font-weight: 500;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      padding: var(--spacing-sm) 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .faq-question::after {
+      content: '+';
+      color: var(--color-secondary);
+    }
+
+    .faq-item.active .faq-question::after { content: '−'; }
+
+    .faq-answer {
+      display: none;
+      padding-top: var(--spacing-sm);
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    .faq-item.active .faq-answer { display: block; }
+
+    .footer {
+      background: var(--color-primary);
+      color: white;
+      padding: var(--spacing-lg) var(--spacing-md);
+      margin-top: var(--spacing-xl);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .footer-links a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CelebEats</a>
+      <nav class="nav-links">
+        <a href="/cities/">Cities</a>
+        <a href="/celebrities/">Celebrities</a>
+        <a href="/collections/">Collections</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="/">Home</a> <span>/</span>
+      <a href="/restaurants/">Restaurants</a> <span>/</span>
+      <span>Carbone</span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-icon">🍝</div>
+      <h1>Carbone</h1>
+      <p class="hero-tagline">NYC's Hottest Reservation</p>
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <div class="hero-meta-value">Greenwich Village</div>
+          <div class="hero-meta-label">Location</div>
+        </div>
+        <div class="hero-meta-item">
+          <div class="hero-meta-value">$$$$</div>
+          <div class="hero-meta-label">Price Range</div>
+        </div>
+        <div class="hero-meta-item">
+          <div class="hero-meta-value">Italian-American</div>
+          <div class="hero-meta-label">Cuisine</div>
+        </div>
+        <div class="hero-meta-item">
+          <div class="hero-meta-value">300+</div>
+          <div class="hero-meta-label">Celebrity Visits</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="main">
+    <article class="aeo-answer">
+      <h2>What is Carbone famous for?</h2>
+      <p><strong>Carbone</strong> is a retro Italian-American restaurant in Greenwich Village known for its theatrical tableside service, vintage ambiance, and celebrity clientele. The <strong>Spicy Rigatoni Vodka</strong> is the signature dish that launched a thousand Instagram posts, while the red-jacketed servers create an old-school fine dining experience that has made it NYC's most coveted reservation.</p>
+    </article>
+
+    <div class="signature-dish">
+      <h3>Spicy Rigatoni Vodka</h3>
+      <p>The dish that defines Carbone. Perfectly al dente rigatoni in a creamy, spicy vodka sauce, finished tableside. Bella Hadid's go-to order.</p>
+      <span class="evidence-badge evidence-a" style="background: rgba(255,255,255,0.2); color: white; margin-top: var(--spacing-sm);">Tier A: Verified Celebrity Order</span>
+    </div>
+
+    <section class="section">
+      <h2>Must-Order Dishes</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <h4>Spicy Rigatoni Vodka</h4>
+            <p>The signature dish, served tableside</p>
+          </div>
+          <span class="price">$36</span>
+        </div>
+        <div class="menu-item">
+          <div>
+            <h4>Veal Parmesan</h4>
+            <p>Massive, shareable, iconic</p>
+          </div>
+          <span class="price">$69</span>
+        </div>
+        <div class="menu-item">
+          <div>
+            <h4>Caesar Salad</h4>
+            <p>Tableside preparation</p>
+          </div>
+          <span class="price">$28</span>
+        </div>
+        <div class="menu-item">
+          <div>
+            <h4>Meatballs</h4>
+            <p>Classic Italian-American</p>
+          </div>
+          <span class="price">$29</span>
+        </div>
+        <div class="menu-item">
+          <div>
+            <h4>Lobster Fra Diavolo</h4>
+            <p>Whole Maine lobster, spicy tomato</p>
+          </div>
+          <span class="price">$95</span>
+        </div>
+        <div class="menu-item">
+          <div>
+            <h4>Cheesecake</h4>
+            <p>Classic NYC style</p>
+          </div>
+          <span class="price">$18</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Celebrity Sightings</h2>
+      <div class="celebrity-grid">
+        <span class="celebrity-chip">Drake</span>
+        <span class="celebrity-chip">Bella Hadid</span>
+        <span class="celebrity-chip">Anna Wintour</span>
+        <span class="celebrity-chip">Rihanna</span>
+        <span class="celebrity-chip">Kim Kardashian</span>
+        <span class="celebrity-chip">A$AP Rocky</span>
+        <span class="celebrity-chip">Kendall Jenner</span>
+        <span class="celebrity-chip">Travis Scott</span>
+        <span class="celebrity-chip">Gigi Hadid</span>
+        <span class="celebrity-chip">Hailey Bieber</span>
+      </div>
+      <p style="margin-top: var(--spacing-sm); font-size: 0.9rem; color: var(--color-text-light);">Especially popular during Fashion Week. The corner booth is the most coveted table.</p>
+    </section>
+
+    <section class="section">
+      <h2>Restaurant Details</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <h4>Address</h4>
+          <p>181 Thompson St, NYC</p>
+        </div>
+        <div class="info-item">
+          <h4>Neighborhood</h4>
+          <p>Greenwich Village</p>
+        </div>
+        <div class="info-item">
+          <h4>Hours</h4>
+          <p>Dinner nightly, 5pm-11pm</p>
+        </div>
+        <div class="info-item">
+          <h4>Reservations</h4>
+          <p>Resy (30 days advance)</p>
+        </div>
+        <div class="info-item">
+          <h4>Dress Code</h4>
+          <p>Smart casual to dressy</p>
+        </div>
+        <div class="info-item">
+          <h4>Vibe</h4>
+          <p>Retro, theatrical, buzzy</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item active">
+        <div class="faq-question">How do I get a reservation at Carbone?</div>
+        <div class="faq-answer">Carbone reservations are notoriously difficult. They open on Resy exactly 30 days in advance at midnight. Set an alarm, have your payment ready, and refresh constantly. Walk-ins are occasionally possible for bar seating on weeknights.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What should I order at Carbone?</div>
+        <div class="faq-answer">The must-orders include: Spicy Rigatoni Vodka (the signature dish), Veal Parmesan (massive and shareable), Caesar Salad (prepared tableside), Meatballs, and the Cheesecake. The theatrical tableside preparations are part of the experience.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What celebrities eat at Carbone?</div>
+        <div class="faq-answer">Carbone's celebrity guest list includes Drake, Bella Hadid, Anna Wintour, Rihanna, Kim Kardashian, A$AP Rocky, and many fashion industry insiders. It's especially popular during Fashion Week.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/cities/new-york/greenwich-village/">Greenwich Village</a>
+      <a href="/dishes/spicy-rigatoni-vodka/">Spicy Rigatoni</a>
+      <a href="/collections/best-italian/">Best Italian</a>
+      <a href="/celebrities/bella-hadid/">Bella Hadid</a>
+      <a href="/contribute/">Contribute</a>
+    </div>
+    <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2025 CelebEats. <a href="/legal/terms/" style="color: var(--color-accent);">Terms</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
