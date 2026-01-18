@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matsuhisa Beverly Hills - The Original Nobu Restaurant | CelebEats</title>
+  <meta name="description" content="Matsuhisa Beverly Hills is where Nobu Matsuhisa started his empire. Discover the original celebrity Japanese restaurant that launched a global phenomenon.">
+  <meta name="keywords" content="Matsuhisa Beverly Hills, original Nobu, Nobu Matsuhisa, Beverly Hills Japanese, celebrity sushi">
+  <link rel="canonical" href="https://celebeats.com/restaurants/matsuhisa/">
+
+  <link rel="alternate" hreflang="en" href="https://celebeats.com/restaurants/matsuhisa/">
+  <link rel="alternate" hreflang="ja" href="https://celebeats.com/ja/restaurants/matsuhisa/">
+  <link rel="alternate" hreflang="x-default" href="https://celebeats.com/restaurants/matsuhisa/">
+
+  <meta property="og:title" content="Matsuhisa Beverly Hills | CelebEats">
+  <meta property="og:description" content="Where the Nobu empire began.">
+  <meta property="og:type" content="restaurant">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Restaurant",
+        "name": "Matsuhisa",
+        "description": "The original restaurant by Nobu Matsuhisa, opened in 1987. This Beverly Hills institution launched the global Nobu empire and continues to draw celebrity clientele.",
+        "servesCuisine": ["Japanese", "Peruvian-Japanese"],
+        "priceRange": "$$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "129 N La Cienega Blvd",
+          "addressLocality": "Beverly Hills",
+          "addressRegion": "CA",
+          "postalCode": "90211"
+        },
+        "founder": {"@type": "Person", "name": "Nobu Matsuhisa"}
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between Matsuhisa and Nobu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Matsuhisa is the original restaurant opened by Nobu Matsuhisa in 1987, while Nobu is the global chain he later launched with Robert De Niro. Matsuhisa remains the flagship and offers a more intimate, original experience with dishes you won't find at Nobu locations."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --color-primary: #1a1a2e;
+      --color-secondary: #c9a962;
+      --color-accent: #e8d5b7;
+      --color-bg: #fafafa;
+      --color-text: #2d2d2d;
+      --color-text-light: #666;
+      --spacing-xs: 0.5rem;
+      --spacing-sm: 1rem;
+      --spacing-md: 1.5rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 3rem;
+      --font-display: Georgia, 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+      --tier-a: #1b5e20;
+      --tier-b: #0277bd;
+      --japan-red: #bc002d;
+      --japan-black: #1a1a1a;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: var(--color-primary);
+      padding: var(--spacing-sm) var(--spacing-md);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .breadcrumb {
+      background: white;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: 0.85rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .breadcrumb-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .breadcrumb a {
+      color: var(--color-secondary);
+      text-decoration: none;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--japan-red) 0%, var(--japan-black) 100%);
+      color: white;
+      padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .hero-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-icon {
+      font-size: 4rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .hero-meta {
+      color: var(--color-secondary);
+      font-size: 1rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-description {
+      max-width: 600px;
+      margin: 0 auto var(--spacing-md);
+      opacity: 0.9;
+    }
+
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-lg);
+      flex-wrap: wrap;
+    }
+
+    .hero-stat {
+      text-align: center;
+    }
+
+    .hero-stat-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-secondary);
+    }
+
+    .hero-stat-label {
+      font-size: 0.75rem;
+      opacity: 0.8;
+    }
+
+    .main { max-width: 800px; margin: 0 auto; padding: var(--spacing-md); }
+
+    .aeo-answer {
+      background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+      border-left: 4px solid var(--color-secondary);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+
+    .aeo-answer h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .section {
+      background: white;
+      border-radius: var(--border-radius);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+      padding-bottom: var(--spacing-xs);
+      border-bottom: 2px solid var(--color-accent);
+    }
+
+    .menu-grid {
+      display: grid;
+      gap: var(--spacing-sm);
+    }
+
+    .menu-item {
+      background: var(--color-bg);
+      padding: var(--spacing-md);
+      border-radius: var(--border-radius);
+    }
+
+    .menu-item h3 {
+      font-size: 1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .menu-item p {
+      font-size: 0.9rem;
+      color: var(--color-text-light);
+    }
+
+    .evidence-badge {
+      display: inline-flex;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .evidence-a { background: #e8f5e9; color: var(--tier-a); }
+    .evidence-b { background: #e3f2fd; color: var(--tier-b); }
+
+    .celeb-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing-xs);
+    }
+
+    .celeb-tag {
+      background: var(--color-bg);
+      padding: var(--spacing-xs) var(--spacing-sm);
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    .info-box {
+      background: linear-gradient(135deg, var(--japan-black) 0%, var(--color-primary) 100%);
+      color: white;
+      padding: var(--spacing-lg);
+      border-radius: var(--border-radius);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .info-box h3 {
+      color: var(--color-secondary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      padding: var(--spacing-sm) 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .faq-question::after {
+      content: '+';
+      color: var(--color-secondary);
+    }
+
+    .faq-item.active .faq-question::after { content: '−'; }
+
+    .faq-answer {
+      display: none;
+      padding-top: var(--spacing-sm);
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    .faq-item.active .faq-answer { display: block; }
+
+    .footer {
+      background: var(--color-primary);
+      color: white;
+      padding: var(--spacing-lg) var(--spacing-md);
+      margin-top: var(--spacing-xl);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .footer-links a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 { font-size: 2.5rem; }
+      .menu-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CelebEats</a>
+      <nav class="nav-links">
+        <a href="/cities/">Cities</a>
+        <a href="/celebrities/">Celebrities</a>
+        <a href="/collections/">Collections</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="/">Home</a> <span>/</span>
+      <a href="/restaurants/">Restaurants</a> <span>/</span>
+      <span>Matsuhisa</span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-icon">🎌</div>
+      <h1>Matsuhisa</h1>
+      <p class="hero-meta">Beverly Hills, CA · Japanese-Peruvian · $$$$ · Est. 1987</p>
+      <p class="hero-description">The original restaurant where Nobu Matsuhisa launched his culinary empire. Before Nobu became a global phenomenon, this Beverly Hills gem was where it all began.</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-value">1987</div>
+          <div class="hero-stat-label">Established</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">300+</div>
+          <div class="hero-stat-label">Celebrity Visits</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">Original</div>
+          <div class="hero-stat-label">Nobu</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="main">
+    <article class="aeo-answer">
+      <h2>What is Matsuhisa?</h2>
+      <p><strong>Matsuhisa</strong> is the original restaurant opened by chef Nobu Matsuhisa in 1987 in Beverly Hills. This is where his signature Japanese-Peruvian fusion cuisine was born—the Black Cod Miso, Yellowtail Jalapeño, and other dishes that later became Nobu staples. It remains more intimate and exclusive than the Nobu chain.</p>
+      <span class="evidence-badge evidence-a">Tier A: Restaurant Verified</span>
+    </article>
+
+    <div class="info-box">
+      <h3>The Birth of an Empire</h3>
+      <p>In 1987, Nobu Matsuhisa opened this small Beverly Hills restaurant after working in Peru and Alaska. Robert De Niro ate here, loved it, and convinced Nobu to partner with him. Together they launched Nobu restaurants worldwide—but Matsuhisa remains the original, more personal experience.</p>
+    </div>
+
+    <section class="section">
+      <h2>Signature Dishes</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <h3>Black Cod with Miso</h3>
+          <p>THE dish that launched an empire. Buttery, sweet, umami perfection.</p>
+        </div>
+        <div class="menu-item">
+          <h3>Yellowtail Sashimi with Jalapeño</h3>
+          <p>The original Peruvian-Japanese fusion creation that changed sushi.</p>
+        </div>
+        <div class="menu-item">
+          <h3>New Style Sashimi</h3>
+          <p>Hot olive oil drizzled over fresh sashimi. Innovation on a plate.</p>
+        </div>
+        <div class="menu-item">
+          <h3>Omakase</h3>
+          <p>Trust the chef for a journey through Nobu's greatest hits and seasonal specials.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Celebrity Clientele</h2>
+      <div class="celeb-grid">
+        <span class="celeb-tag">Robert De Niro</span>
+        <span class="celeb-tag">Tom Cruise</span>
+        <span class="celeb-tag">Madonna</span>
+        <span class="celeb-tag">Hollywood Legends</span>
+        <span class="celeb-tag">Industry Executives</span>
+        <span class="celeb-tag">Music Icons</span>
+      </div>
+      <p style="margin-top: var(--spacing-sm); color: var(--color-text-light); font-size: 0.9rem;">Matsuhisa has hosted Hollywood royalty since 1987. The intimate setting attracts those who prefer the original over the global chain.</p>
+      <span class="evidence-badge evidence-a" style="margin-top: var(--spacing-sm);">Tier A</span>
+    </section>
+
+    <section class="section">
+      <h2>Details</h2>
+      <ul style="padding-left: var(--spacing-md);">
+        <li><strong>Location:</strong> 129 N La Cienega Blvd, Beverly Hills</li>
+        <li><strong>Reservations:</strong> Essential, book 2-3 weeks ahead</li>
+        <li><strong>Dress Code:</strong> Smart casual to upscale</li>
+        <li><strong>Best For:</strong> Intimate dining, special occasions, Nobu purists</li>
+        <li><strong>Pro Tip:</strong> Ask for omakase at the sushi bar for the full experience</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item active">
+        <div class="faq-question">What is the difference between Matsuhisa and Nobu?</div>
+        <div class="faq-answer">Matsuhisa is the original 1987 restaurant while Nobu is the global chain launched later with Robert De Niro. Matsuhisa offers a more intimate experience with dishes you won't find at Nobu locations.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Is Matsuhisa better than Nobu?</div>
+        <div class="faq-answer">Many purists prefer Matsuhisa for its original, intimate atmosphere and unique menu items. Nobu offers the same quality in larger, more scene-oriented settings. Both are excellent—it depends on your preference.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How do I get a reservation at Matsuhisa?</div>
+        <div class="faq-answer">Reservations are available by phone or online. For weekend dinners, book 2-3 weeks in advance. Weekday lunches are easier to secure. Sushi bar seats offer the best experience but book up fast.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/restaurants/nobu-malibu/">Nobu Malibu</a>
+      <a href="/restaurants/nobu-downtown/">Nobu Downtown</a>
+      <a href="/cities/los-angeles/beverly-hills/">Beverly Hills</a>
+      <a href="/collections/best-sushi/">Best Sushi</a>
+    </div>
+    <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2025 CelebEats. <a href="/legal/terms/" style="color: var(--color-accent);">Terms</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

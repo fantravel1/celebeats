@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastro's Steakhouse - Celebrity Steakhouse Beverly Hills | CelebEats</title>
+  <meta name="description" content="Mastro's Steakhouse is the ultimate celebrity steakhouse in Beverly Hills. Live piano, butter cake, and A-list sightings. Evidence-backed guide.">
+  <meta name="keywords" content="Mastro's Steakhouse, Beverly Hills steakhouse, celebrity steakhouse, butter cake, LeBron James steakhouse">
+  <link rel="canonical" href="https://celebeats.com/restaurants/mastros/">
+
+  <link rel="alternate" hreflang="en" href="https://celebeats.com/restaurants/mastros/">
+  <link rel="alternate" hreflang="x-default" href="https://celebeats.com/restaurants/mastros/">
+
+  <meta property="og:title" content="Mastro's Steakhouse - Celebrity Guide">
+  <meta property="og:description" content="The legendary steakhouse where A-listers dine on prime cuts and butter cake.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:url" content="https://celebeats.com/restaurants/mastros/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Restaurant",
+        "name": "Mastro's Steakhouse",
+        "description": "Upscale steakhouse chain known for exceptional cuts, live piano entertainment, and the legendary butter cake dessert.",
+        "url": "https://celebeats.com/restaurants/mastros/",
+        "servesCuisine": ["Steakhouse", "American"],
+        "priceRange": "$$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "246 N Canon Dr",
+          "addressLocality": "Beverly Hills",
+          "addressRegion": "CA",
+          "postalCode": "90210"
+        },
+        "geo": {"@type": "GeoCoordinates", "latitude": 34.0697, "longitude": -118.3987},
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "2500"}
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What celebrities go to Mastro's?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mastro's Beverly Hills regularly hosts celebrities including LeBron James, Drake, Kobe Bryant (was a regular), Michael Jordan, and various Hollywood A-listers. The private atmosphere and exceptional steaks make it a favorite for athletes and entertainers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Mastro's famous for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mastro's is famous for its exceptional steaks, live piano entertainment, luxurious atmosphere, and the legendary butter cake dessert. The warm butter cake served with vanilla ice cream is considered one of the best desserts in LA."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --color-primary: #1a1a2e;
+      --color-secondary: #c9a962;
+      --color-accent: #e8d5b7;
+      --color-bg: #fafafa;
+      --color-text: #2d2d2d;
+      --color-text-light: #666;
+      --spacing-xs: 0.5rem;
+      --spacing-sm: 1rem;
+      --spacing-md: 1.5rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 3rem;
+      --font-display: Georgia, 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+      --tier-a: #1b5e20;
+      --tier-b: #0277bd;
+      --steak-brown: #5d4037;
+      --steak-gold: #d4af37;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: var(--color-primary);
+      padding: var(--spacing-sm) var(--spacing-md);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .breadcrumb {
+      background: white;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: 0.85rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .breadcrumb-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .breadcrumb a {
+      color: var(--color-secondary);
+      text-decoration: none;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--steak-brown) 0%, var(--color-primary) 100%);
+      color: white;
+      padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .hero-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-icon {
+      font-size: 4rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-category {
+      background: rgba(255,255,255,0.2);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      display: inline-block;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .hero-subtitle {
+      opacity: 0.9;
+      margin-bottom: var(--spacing-md);
+    }
+
+    .hero-meta {
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-lg);
+      flex-wrap: wrap;
+    }
+
+    .hero-meta-item {
+      text-align: center;
+    }
+
+    .hero-meta-value {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--steak-gold);
+    }
+
+    .hero-meta-label {
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+
+    .main { max-width: 800px; margin: 0 auto; padding: var(--spacing-md); }
+
+    .aeo-answer {
+      background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+      border-left: 4px solid var(--color-secondary);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+
+    .aeo-answer h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .section {
+      background: white;
+      border-radius: var(--border-radius);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+      padding-bottom: var(--spacing-xs);
+      border-bottom: 2px solid var(--color-accent);
+    }
+
+    .evidence-badge {
+      display: inline-flex;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .evidence-a { background: #e8f5e9; color: var(--tier-a); }
+    .evidence-b { background: #e3f2fd; color: var(--tier-b); }
+
+    .celebrity-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: var(--spacing-sm);
+      margin-top: var(--spacing-sm);
+    }
+
+    .celebrity-chip {
+      background: var(--color-bg);
+      padding: var(--spacing-xs) var(--spacing-sm);
+      border-radius: 20px;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+
+    .dish-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+
+    .dish-item {
+      display: flex;
+      gap: var(--spacing-sm);
+      padding: var(--spacing-sm);
+      background: var(--color-bg);
+      border-radius: var(--border-radius);
+    }
+
+    .dish-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--steak-brown), var(--steak-gold));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .dish-info h3 {
+      font-size: 1rem;
+      color: var(--color-primary);
+    }
+
+    .dish-info p {
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+    }
+
+    .highlight-box {
+      background: linear-gradient(135deg, var(--steak-gold) 0%, var(--steak-brown) 100%);
+      color: white;
+      padding: var(--spacing-lg);
+      border-radius: var(--border-radius);
+      margin-bottom: var(--spacing-md);
+      text-align: center;
+    }
+
+    .highlight-box h3 {
+      font-family: var(--font-display);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      padding: var(--spacing-sm) 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .faq-question::after {
+      content: '+';
+      color: var(--color-secondary);
+    }
+
+    .faq-item.active .faq-question::after { content: '−'; }
+
+    .faq-answer {
+      display: none;
+      padding-top: var(--spacing-sm);
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    .faq-item.active .faq-answer { display: block; }
+
+    .footer {
+      background: var(--color-primary);
+      color: white;
+      padding: var(--spacing-lg) var(--spacing-md);
+      margin-top: var(--spacing-xl);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .footer-links a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 { font-size: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CelebEats</a>
+      <nav class="nav-links">
+        <a href="/cities/">Cities</a>
+        <a href="/celebrities/">Celebrities</a>
+        <a href="/collections/">Collections</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="/">Home</a> <span>/</span>
+      <a href="/restaurants/">Restaurants</a> <span>/</span>
+      <span>Mastro's Steakhouse</span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-icon">🥩</div>
+      <span class="hero-category">Steakhouse · Beverly Hills</span>
+      <h1>Mastro's Steakhouse</h1>
+      <p class="hero-subtitle">The ultimate celebrity steakhouse experience. Live piano, legendary butter cake, and A-list regulars since 1999.</p>
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <div class="hero-meta-value">$$$$</div>
+          <div class="hero-meta-label">Price Range</div>
+        </div>
+        <div class="hero-meta-item">
+          <div class="hero-meta-value">300+</div>
+          <div class="hero-meta-label">Celebrity Visits</div>
+        </div>
+        <div class="hero-meta-item">
+          <div class="hero-meta-value">4.7</div>
+          <div class="hero-meta-label">Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="main">
+    <article class="aeo-answer">
+      <h2>What celebrities go to Mastro's Steakhouse?</h2>
+      <p><strong>Mastro's Beverly Hills</strong> is a favorite among athletes and entertainers including <strong>LeBron James</strong>, <strong>Drake</strong>, <strong>Michael Jordan</strong>, and <strong>Kobe Bryant</strong> (was a regular). The luxurious atmosphere, exceptional steaks, and legendary <strong>butter cake</strong> dessert make it the go-to steakhouse for A-listers in LA.</p>
+      <span class="evidence-badge evidence-a">Tier A: Multiple Sources</span>
+    </article>
+
+    <div class="highlight-box">
+      <h3>The Legendary Butter Cake</h3>
+      <p>Mastro's warm butter cake with vanilla ice cream is considered one of the best desserts in Los Angeles. Order it at the start of your meal—it takes 25 minutes to prepare and is worth every second.</p>
+    </div>
+
+    <section class="section">
+      <h2>Celebrity Regulars</h2>
+      <p>Mastro's attracts sports legends and entertainment icons:</p>
+      <div class="celebrity-grid">
+        <span class="celebrity-chip">LeBron James</span>
+        <span class="celebrity-chip">Drake</span>
+        <span class="celebrity-chip">Michael Jordan</span>
+        <span class="celebrity-chip">Kobe Bryant</span>
+        <span class="celebrity-chip">Floyd Mayweather</span>
+        <span class="celebrity-chip">Magic Johnson</span>
+        <span class="celebrity-chip">Chris Paul</span>
+        <span class="celebrity-chip">Kevin Hart</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Signature Dishes</h2>
+      <div class="dish-list">
+        <div class="dish-item">
+          <div class="dish-icon">🥩</div>
+          <div class="dish-info">
+            <h3>Bone-In Ribeye</h3>
+            <p>The signature cut. Perfectly marbled, expertly aged, and charred to perfection.</p>
+          </div>
+        </div>
+        <div class="dish-item">
+          <div class="dish-icon">🦞</div>
+          <div class="dish-info">
+            <h3>Lobster Mashed Potatoes</h3>
+            <p>Decadent side loaded with butter and chunks of fresh lobster.</p>
+          </div>
+        </div>
+        <div class="dish-item">
+          <div class="dish-icon">🍰</div>
+          <div class="dish-info">
+            <h3>Warm Butter Cake</h3>
+            <p>The legendary dessert. Order early—it takes 25 minutes to prepare.</p>
+          </div>
+        </div>
+        <div class="dish-item">
+          <div class="dish-icon">🍸</div>
+          <div class="dish-info">
+            <h3>Mastro's Martini</h3>
+            <p>Their signature cocktail to start the evening right.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>The Experience</h2>
+      <ul style="padding-left: var(--spacing-md);">
+        <li><strong>Live Piano:</strong> Nightly entertainment adds to the atmosphere</li>
+        <li><strong>Private Dining:</strong> Secluded areas for celebrity privacy</li>
+        <li><strong>Dress Code:</strong> Upscale casual (no athletic wear)</li>
+        <li><strong>Reservations:</strong> Essential, especially weekends</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item active">
+        <div class="faq-question">What celebrities go to Mastro's?</div>
+        <div class="faq-answer">Mastro's Beverly Hills hosts celebrities including LeBron James, Drake, Kobe Bryant (was a regular), Michael Jordan, and various Hollywood A-listers. Athletes particularly love this spot.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What is Mastro's famous for?</div>
+        <div class="faq-answer">Mastro's is famous for exceptional steaks, live piano entertainment, luxurious atmosphere, and the legendary butter cake dessert served warm with vanilla ice cream.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Do you need reservations at Mastro's?</div>
+        <div class="faq-answer">Yes, reservations are strongly recommended, especially for weekend dinners. The Beverly Hills location is particularly popular and books up quickly.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/collections/best-steakhouses/">Best Steakhouses</a>
+      <a href="/cities/los-angeles/beverly-hills/">Beverly Hills</a>
+      <a href="/celebrities/lebron-james/">LeBron James</a>
+      <a href="/restaurants/">All Restaurants</a>
+    </div>
+    <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2025 CelebEats. <a href="/legal/terms/" style="color: var(--color-accent);">Terms</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

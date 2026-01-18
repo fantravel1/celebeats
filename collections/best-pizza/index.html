@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Celebrity Pizza Restaurants - Where Stars Eat Pizza | CelebEats</title>
+  <meta name="description" content="Discover the best pizza restaurants where celebrities dine. From Jon & Vinny's in LA to Lucali in Brooklyn, explore A-list pizza spots across the country.">
+  <meta name="keywords" content="celebrity pizza, Jon and Vinny's, Lucali, best pizza LA NYC, celebrity favorite pizza">
+  <link rel="canonical" href="https://celebeats.com/collections/best-pizza/">
+
+  <link rel="alternate" hreflang="en" href="https://celebeats.com/collections/best-pizza/">
+  <link rel="alternate" hreflang="it" href="https://celebeats.com/it/collections/best-pizza/">
+  <link rel="alternate" hreflang="x-default" href="https://celebeats.com/collections/best-pizza/">
+
+  <meta property="og:title" content="Best Celebrity Pizza Restaurants">
+  <meta property="og:description" content="Where Hollywood goes for the perfect slice.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://celebeats.com/collections/best-pizza/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "name": "Best Celebrity Pizza Restaurants",
+        "description": "A curated collection of the best pizza restaurants frequented by celebrities.",
+        "url": "https://celebeats.com/collections/best-pizza/"
+      },
+      {
+        "@type": "ItemList",
+        "name": "Celebrity Pizza Restaurant List",
+        "numberOfItems": 10,
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "item": {"@type": "Restaurant", "name": "Jon & Vinny's", "servesCuisine": "Italian"}},
+          {"@type": "ListItem", "position": 2, "item": {"@type": "Restaurant", "name": "Lucali", "servesCuisine": "Pizza"}},
+          {"@type": "ListItem", "position": 3, "item": {"@type": "Restaurant", "name": "Pizzana", "servesCuisine": "Neapolitan Pizza"}}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the most popular pizza restaurant among celebrities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Jon & Vinny's in Los Angeles is arguably the most popular pizza spot among celebrities. With locations in Fairfax and Brentwood, it's a favorite of the Kardashians, Chrissy Teigen, and countless other A-listers for its perfect pies and casual-chic vibe."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where do celebrities eat pizza in New York?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In New York, celebrities eat pizza at Lucali in Brooklyn (Beyoncé and Jay-Z's favorite), Rubirosa in Nolita for vodka pizza, and classic spots like Joe's Pizza in the Village. Each offers a different NYC pizza experience."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --color-primary: #1a1a2e;
+      --color-secondary: #c9a962;
+      --color-accent: #e8d5b7;
+      --color-bg: #fafafa;
+      --color-text: #2d2d2d;
+      --color-text-light: #666;
+      --spacing-xs: 0.5rem;
+      --spacing-sm: 1rem;
+      --spacing-md: 1.5rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 3rem;
+      --font-display: Georgia, 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+      --tier-a: #1b5e20;
+      --tier-b: #0277bd;
+      --pizza-red: #d63031;
+      --pizza-gold: #fdcb6e;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: var(--color-primary);
+      padding: var(--spacing-sm) var(--spacing-md);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .breadcrumb {
+      background: white;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: 0.85rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .breadcrumb-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .breadcrumb a {
+      color: var(--color-secondary);
+      text-decoration: none;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--pizza-red) 0%, var(--color-primary) 100%);
+      color: white;
+      padding: var(--spacing-xl) var(--spacing-md);
+      text-align: center;
+    }
+
+    .hero-emoji {
+      font-size: 4rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .hero-subtitle {
+      color: var(--pizza-gold);
+      font-size: 1.1rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-lg);
+      margin-top: var(--spacing-md);
+    }
+
+    .hero-stat { text-align: center; }
+
+    .hero-stat-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--pizza-gold);
+    }
+
+    .hero-stat-label {
+      font-size: 0.8rem;
+      opacity: 0.9;
+    }
+
+    .main { max-width: 1200px; margin: 0 auto; padding: var(--spacing-md); }
+
+    .aeo-answer {
+      background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+      border-left: 4px solid var(--color-secondary);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+
+    .aeo-answer h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .city-section {
+      margin-bottom: var(--spacing-xl);
+    }
+
+    .city-header {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .city-header h2 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--color-primary);
+    }
+
+    .restaurant-list {
+      display: grid;
+      gap: var(--spacing-md);
+    }
+
+    .restaurant-card {
+      background: white;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+
+    .restaurant-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .restaurant-image {
+      height: 120px;
+      background: linear-gradient(135deg, var(--pizza-red) 0%, var(--pizza-gold) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+
+    .restaurant-content {
+      padding: var(--spacing-md);
+    }
+
+    .restaurant-rank {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: var(--pizza-red);
+      color: white;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .restaurant-card h3 {
+      font-size: 1.2rem;
+      color: var(--color-primary);
+      margin-bottom: 4px;
+    }
+
+    .restaurant-meta {
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .restaurant-description {
+      font-size: 0.9rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .celebrity-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .celebrity-tag {
+      background: var(--color-bg);
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      color: var(--color-text-light);
+    }
+
+    .evidence-badge {
+      display: inline-flex;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: var(--spacing-sm);
+    }
+
+    .evidence-a { background: #e8f5e9; color: var(--tier-a); }
+    .evidence-b { background: #e3f2fd; color: var(--tier-b); }
+
+    .section {
+      background: white;
+      border-radius: var(--border-radius);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+      border-bottom: 2px solid var(--color-accent);
+      padding-bottom: var(--spacing-xs);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      padding: var(--spacing-sm) 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .faq-question::after {
+      content: '+';
+      color: var(--color-secondary);
+    }
+
+    .faq-item.active .faq-question::after { content: '−'; }
+
+    .faq-answer {
+      display: none;
+      padding-top: var(--spacing-sm);
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    .faq-item.active .faq-answer { display: block; }
+
+    .footer {
+      background: var(--color-primary);
+      color: white;
+      padding: var(--spacing-lg) var(--spacing-md);
+      margin-top: var(--spacing-xl);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .footer-links a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 { font-size: 2.5rem; }
+      .restaurant-list { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (min-width: 1024px) {
+      .restaurant-list { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CelebEats</a>
+      <nav class="nav-links">
+        <a href="/cities/">Cities</a>
+        <a href="/celebrities/">Celebrities</a>
+        <a href="/collections/">Collections</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="/">Home</a> <span>/</span>
+      <a href="/collections/">Collections</a> <span>/</span>
+      <span>Best Pizza</span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-emoji">🍕</div>
+    <h1>Best Celebrity Pizza Restaurants</h1>
+    <p class="hero-subtitle">Where Hollywood Goes for the Perfect Slice</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-value">10</div>
+        <div class="hero-stat-label">Restaurants</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-value">3</div>
+        <div class="hero-stat-label">Cities</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-value">100+</div>
+        <div class="hero-stat-label">Celebrity Visits</div>
+      </div>
+    </div>
+  </section>
+
+  <main class="main">
+    <article class="aeo-answer">
+      <h2>What are the best pizza restaurants where celebrities eat?</h2>
+      <p>The most popular pizza spots among celebrities include <strong>Jon & Vinny's</strong> in LA (Kardashian and Chrissy Teigen favorite), <strong>Lucali</strong> in Brooklyn (Beyoncé and Jay-Z's go-to), <strong>Pizzana</strong> for Neapolitan-style, and classic <strong>Joe's Pizza</strong> in NYC. These range from casual slices to upscale pizza experiences.</p>
+    </article>
+
+    <section class="city-section">
+      <div class="city-header">
+        <span>🌴</span>
+        <h2>Los Angeles</h2>
+      </div>
+      <div class="restaurant-list">
+        <a href="/restaurants/jon-and-vinnys/" class="restaurant-card">
+          <div class="restaurant-image">🍕</div>
+          <div class="restaurant-content">
+            <span class="restaurant-rank">1</span>
+            <h3>Jon & Vinny's</h3>
+            <p class="restaurant-meta">Fairfax/Brentwood · Italian · $$$</p>
+            <p class="restaurant-description">LA's ultimate celebrity pizza. Perfect pies in a casual-chic setting that attracts every A-lister.</p>
+            <div class="celebrity-tags">
+              <span class="celebrity-tag">Kardashians</span>
+              <span class="celebrity-tag">Chrissy Teigen</span>
+              <span class="celebrity-tag">Gigi Hadid</span>
+            </div>
+            <span class="evidence-badge evidence-a">Tier A</span>
+          </div>
+        </a>
+
+        <a href="/restaurants/pizzana/" class="restaurant-card">
+          <div class="restaurant-image">🇮🇹</div>
+          <div class="restaurant-content">
+            <span class="restaurant-rank">2</span>
+            <h3>Pizzana</h3>
+            <p class="restaurant-meta">Brentwood · Neapolitan · $$$</p>
+            <p class="restaurant-description">Daniele Uditi's Neapolitan perfection. The cacio e pepe pizza is legendary.</p>
+            <div class="celebrity-tags">
+              <span class="celebrity-tag">Chris Pratt</span>
+              <span class="celebrity-tag">Gwyneth Paltrow</span>
+            </div>
+            <span class="evidence-badge evidence-a">Tier A</span>
+          </div>
+        </a>
+
+        <a href="/restaurants/mother-wolf/" class="restaurant-card">
+          <div class="restaurant-image">🐺</div>
+          <div class="restaurant-content">
+            <span class="restaurant-rank">3</span>
+            <h3>Mother Wolf</h3>
+            <p class="restaurant-meta">Hollywood · Roman · $$$$</p>
+            <p class="restaurant-description">Evan Funke's Roman trattoria. Pinsa and pasta in a stunning space.</p>
+            <div class="celebrity-tags">
+              <span class="celebrity-tag">Foodies</span>
+              <span class="celebrity-tag">Industry</span>
+            </div>
+            <span class="evidence-badge evidence-b">Tier B</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="city-section">
+      <div class="city-header">
+        <span>🗽</span>
+        <h2>New York City</h2>
+      </div>
+      <div class="restaurant-list">
+        <a href="/restaurants/lucali/" class="restaurant-card">
+          <div class="restaurant-image">🔥</div>
+          <div class="restaurant-content">
+            <span class="restaurant-rank">4</span>
+            <h3>Lucali</h3>
+            <p class="restaurant-meta">Brooklyn · BYOB · $$$</p>
+            <p class="restaurant-description">The GOAT of NYC pizza. Cash-only, BYOB, and worth the wait. Beyoncé's favorite.</p>
+            <div class="celebrity-tags">
+              <span class="celebrity-tag">Beyoncé</span>
+              <span class="celebrity-tag">Jay-Z</span>
+              <span class="celebrity-tag">Natalie Portman</span>
+            </div>
+            <span class="evidence-badge evidence-a">Tier A</span>
+          </div>
+        </a>
+
+        <a href="/restaurants/rubirosa/" class="restaurant-card">
+          <div class="restaurant-image">🍷</div>
+          <div class="restaurant-content">
+            <span class="restaurant-rank">5</span>
+            <h3>Rubirosa</h3>
+            <p class="restaurant-meta">Nolita · Italian-American · $$$</p>
+            <p class="restaurant-description">The vodka pizza is legendary. Thin-crust perfection in buzzy Nolita.</p>
+            <div class="celebrity-tags">
+              <span class="celebrity-tag">Models</span>
+              <span class="celebrity-tag">Fashion Crowd</span>
+            </div>
+            <span class="evidence-badge evidence-a">Tier A</span>
+          </div>
+        </a>
+
+        <a href="/restaurants/joes-pizza/" class="restaurant-card">
+          <div class="restaurant-image">🏆</div>
+          <div class="restaurant-content">
+            <span class="restaurant-rank">6</span>
+            <h3>Joe's Pizza</h3>
+            <p class="restaurant-meta">West Village · Classic · $</p>
+            <p class="restaurant-description">The quintessential NYC slice. Celebrities and tourists alike at 3am.</p>
+            <div class="celebrity-tags">
+              <span class="celebrity-tag">Everyone</span>
+              <span class="celebrity-tag">Late Night</span>
+            </div>
+            <span class="evidence-badge evidence-a">Tier A</span>
+          </div>
+        </a>
+
+        <a href="/restaurants/emmys-squared/" class="restaurant-card">
+          <div class="restaurant-image">⬛</div>
+          <div class="restaurant-content">
+            <span class="restaurant-rank">7</span>
+            <h3>Emmy Squared</h3>
+            <p class="restaurant-meta">Brooklyn/Manhattan · Detroit-Style · $$$</p>
+            <p class="restaurant-description">Detroit-style squares. The "Emmy" with banana peppers is iconic.</p>
+            <div class="celebrity-tags">
+              <span class="celebrity-tag">Brooklyn Celebs</span>
+            </div>
+            <span class="evidence-badge evidence-b">Tier B</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="city-section">
+      <div class="city-header">
+        <span>🌴</span>
+        <h2>Miami</h2>
+      </div>
+      <div class="restaurant-list">
+        <a href="/restaurants/lucali-miami/" class="restaurant-card">
+          <div class="restaurant-image">🌊</div>
+          <div class="restaurant-content">
+            <span class="restaurant-rank">8</span>
+            <h3>Lucali Miami</h3>
+            <p class="restaurant-meta">Sunset Harbour · BYOB · $$$</p>
+            <p class="restaurant-description">The Brooklyn legend comes to Miami. Same perfection, beach vibes.</p>
+            <div class="celebrity-tags">
+              <span class="celebrity-tag">DJ Khaled</span>
+              <span class="celebrity-tag">Pharrell</span>
+            </div>
+            <span class="evidence-badge evidence-a">Tier A</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item active">
+        <div class="faq-question">What is the most popular pizza restaurant among celebrities?</div>
+        <div class="faq-answer">Jon & Vinny's in LA is arguably the most popular, with the Kardashians, Chrissy Teigen, and countless A-listers as regulars. In NYC, Lucali in Brooklyn is the celebrity GOAT.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Where do celebrities eat pizza in New York?</div>
+        <div class="faq-answer">Celebrities eat pizza at Lucali in Brooklyn (Beyoncé's favorite), Rubirosa in Nolita for vodka pizza, and Joe's Pizza for late-night slices.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What pizza do the Kardashians order?</div>
+        <div class="faq-answer">The Kardashians are regulars at Jon & Vinny's in LA. They've been photographed with various pies but seem to love the classic margherita and pepperoni options.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/restaurants/jon-and-vinnys/">Jon & Vinny's</a>
+      <a href="/restaurants/lucali/">Lucali</a>
+      <a href="/collections/best-italian/">Best Italian</a>
+      <a href="/collections/late-night/">Late Night</a>
+      <a href="/contribute/">Contribute</a>
+    </div>
+    <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2025 CelebEats. <a href="/legal/terms/" style="color: var(--color-accent);">Terms</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

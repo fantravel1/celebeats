@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truffle Pasta - Celebrity Favorite Dish at Top Restaurants | CelebEats</title>
+  <meta name="description" content="Truffle pasta is a celebrity favorite at restaurants worldwide. Discover where stars order this luxurious dish from Carbone to Funke.">
+  <meta name="keywords" content="truffle pasta, celebrity pasta, black truffle pasta, white truffle pasta, luxury pasta dish">
+  <link rel="canonical" href="https://celebeats.com/dishes/truffle-pasta/">
+
+  <link rel="alternate" hreflang="en" href="https://celebeats.com/dishes/truffle-pasta/">
+  <link rel="alternate" hreflang="it" href="https://celebeats.com/it/dishes/truffle-pasta/">
+  <link rel="alternate" hreflang="x-default" href="https://celebeats.com/dishes/truffle-pasta/">
+
+  <meta property="og:title" content="Truffle Pasta - Celebrity Favorite">
+  <meta property="og:description" content="The luxurious pasta dish that A-listers can't resist.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://celebeats.com/dishes/truffle-pasta/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Recipe",
+        "name": "Truffle Pasta",
+        "description": "Luxurious pasta dish featuring fresh or preserved truffles, typically served with butter, parmesan, and fresh pasta.",
+        "recipeCategory": "Main Course",
+        "recipeCuisine": "Italian",
+        "keywords": "truffle, pasta, luxury, Italian, celebrity"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Where do celebrities eat truffle pasta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrities order truffle pasta at Funke in Beverly Hills (famous truffle tagliatelle), Carbone in NYC (truffle-topped pastas), Giorgio Baldi in Santa Monica, and Cipriani locations worldwide. White truffle season (October-December) sees the most luxurious preparations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the most expensive truffle pasta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The most expensive truffle pastas feature fresh white Alba truffles (in season October-December) and can cost $200-500+ per serving at top restaurants like Funke, Carbone, and Italian fine dining establishments. The price varies based on truffle market rates."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --color-primary: #1a1a2e;
+      --color-secondary: #c9a962;
+      --color-accent: #e8d5b7;
+      --color-bg: #fafafa;
+      --color-text: #2d2d2d;
+      --color-text-light: #666;
+      --spacing-xs: 0.5rem;
+      --spacing-sm: 1rem;
+      --spacing-md: 1.5rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 3rem;
+      --font-display: Georgia, 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+      --tier-a: #1b5e20;
+      --tier-b: #0277bd;
+      --truffle-brown: #4a3728;
+      --truffle-gold: #d4a574;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: var(--color-primary);
+      padding: var(--spacing-sm) var(--spacing-md);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .breadcrumb {
+      background: white;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: 0.85rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .breadcrumb-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .breadcrumb a {
+      color: var(--color-secondary);
+      text-decoration: none;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--truffle-brown) 0%, var(--color-primary) 100%);
+      color: white;
+      padding: var(--spacing-xl) var(--spacing-md);
+      text-align: center;
+    }
+
+    .hero-icon {
+      font-size: 4rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .hero-subtitle {
+      color: var(--truffle-gold);
+      font-size: 1.1rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-description {
+      max-width: 600px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    .main { max-width: 800px; margin: 0 auto; padding: var(--spacing-md); }
+
+    .aeo-answer {
+      background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+      border-left: 4px solid var(--color-secondary);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+
+    .aeo-answer h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .section {
+      background: white;
+      border-radius: var(--border-radius);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+      padding-bottom: var(--spacing-xs);
+      border-bottom: 2px solid var(--color-accent);
+    }
+
+    .restaurant-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+
+    .restaurant-item {
+      display: flex;
+      gap: var(--spacing-sm);
+      padding: var(--spacing-sm);
+      background: var(--color-bg);
+      border-radius: var(--border-radius);
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .restaurant-item:hover {
+      background: #f0f0f0;
+    }
+
+    .restaurant-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--truffle-brown), var(--truffle-gold));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .restaurant-info h3 {
+      font-size: 1rem;
+      color: var(--color-primary);
+    }
+
+    .restaurant-info p {
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+    }
+
+    .evidence-badge {
+      display: inline-flex;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .evidence-a { background: #e8f5e9; color: var(--tier-a); }
+    .evidence-b { background: #e3f2fd; color: var(--tier-b); }
+
+    .truffle-types {
+      display: grid;
+      gap: var(--spacing-sm);
+    }
+
+    .truffle-card {
+      background: var(--color-bg);
+      padding: var(--spacing-md);
+      border-radius: var(--border-radius);
+    }
+
+    .truffle-card h3 {
+      font-size: 1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .truffle-card p {
+      font-size: 0.9rem;
+      color: var(--color-text-light);
+    }
+
+    .price-tag {
+      background: var(--truffle-gold);
+      color: var(--truffle-brown);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      padding: var(--spacing-sm) 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .faq-question::after {
+      content: '+';
+      color: var(--color-secondary);
+    }
+
+    .faq-item.active .faq-question::after { content: '−'; }
+
+    .faq-answer {
+      display: none;
+      padding-top: var(--spacing-sm);
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    .faq-item.active .faq-answer { display: block; }
+
+    .footer {
+      background: var(--color-primary);
+      color: white;
+      padding: var(--spacing-lg) var(--spacing-md);
+      margin-top: var(--spacing-xl);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .footer-links a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 { font-size: 2.5rem; }
+      .truffle-types { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CelebEats</a>
+      <nav class="nav-links">
+        <a href="/cities/">Cities</a>
+        <a href="/celebrities/">Celebrities</a>
+        <a href="/collections/">Collections</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="/">Home</a> <span>/</span>
+      <a href="/dishes/">Dishes</a> <span>/</span>
+      <span>Truffle Pasta</span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-icon">🍝</div>
+    <h1>Truffle Pasta</h1>
+    <p class="hero-subtitle">The Ultimate Luxury Pasta</p>
+    <p class="hero-description">Few dishes scream luxury like pasta showered with fresh truffles. A celebrity favorite at fine Italian restaurants worldwide.</p>
+  </section>
+
+  <main class="main">
+    <article class="aeo-answer">
+      <h2>Where do celebrities eat truffle pasta?</h2>
+      <p>Celebrities order truffle pasta at <strong>Funke</strong> in Beverly Hills (famous truffle tagliatelle), <strong>Carbone</strong> in NYC, <strong>Giorgio Baldi</strong> in Santa Monica, and <strong>Cipriani</strong> locations worldwide. <strong>White truffle season</strong> (October-December) sees the most luxurious—and expensive—preparations.</p>
+      <span class="evidence-badge evidence-a">Tier A: Menu Verified</span>
+    </article>
+
+    <section class="section">
+      <h2>Truffle Types</h2>
+      <div class="truffle-types">
+        <div class="truffle-card">
+          <h3>White Alba Truffle <span class="price-tag">$$$$$</span></h3>
+          <p>The king of truffles. Shaved tableside, October-December only. Can add $100-300+ to a dish.</p>
+        </div>
+        <div class="truffle-card">
+          <h3>Black Winter Truffle <span class="price-tag">$$$$</span></h3>
+          <p>Périgord truffle from France. Earthy, intense. Available December-March.</p>
+        </div>
+        <div class="truffle-card">
+          <h3>Black Summer Truffle <span class="price-tag">$$$</span></h3>
+          <p>Milder flavor, more affordable. Available May-August. Great for everyday luxury.</p>
+        </div>
+        <div class="truffle-card">
+          <h3>Truffle Oil/Butter <span class="price-tag">$$</span></h3>
+          <p>Year-round option. Quality varies widely—look for real truffle pieces.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Best Celebrity Truffle Pasta Spots</h2>
+      <div class="restaurant-list">
+        <a href="/restaurants/funke/" class="restaurant-item">
+          <div class="restaurant-icon">🏆</div>
+          <div class="restaurant-info">
+            <h3>Funke</h3>
+            <p>Beverly Hills · Truffle tagliatelle is legendary. White truffle season is extraordinary.</p>
+          </div>
+        </a>
+        <a href="/restaurants/carbone/" class="restaurant-item">
+          <div class="restaurant-icon">🎭</div>
+          <div class="restaurant-info">
+            <h3>Carbone</h3>
+            <p>NYC/Miami · Theatrical tableside truffle shaving on various pastas.</p>
+          </div>
+        </a>
+        <a href="/restaurants/giorgio-baldi/" class="restaurant-item">
+          <div class="restaurant-icon">🌊</div>
+          <div class="restaurant-info">
+            <h3>Giorgio Baldi</h3>
+            <p>Santa Monica · Rihanna's favorite spot does truffle preparations beautifully.</p>
+          </div>
+        </a>
+        <a href="/restaurants/cipriani/" class="restaurant-item">
+          <div class="restaurant-icon">✨</div>
+          <div class="restaurant-info">
+            <h3>Cipriani</h3>
+            <p>NYC/Miami/LA · Classic Italian luxury with generous truffle portions.</p>
+          </div>
+        </a>
+        <a href="/restaurants/spago/" class="restaurant-item">
+          <div class="restaurant-icon">⭐</div>
+          <div class="restaurant-info">
+            <h3>Spago</h3>
+            <p>Beverly Hills · Wolfgang Puck's seasonal truffle menu is legendary.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Celebrity Truffle Moments</h2>
+      <ul style="padding-left: var(--spacing-md);">
+        <li>The Kardashians are frequently photographed at truffle-heavy Italian spots</li>
+        <li>Drake has been known to order truffle everything at Carbone</li>
+        <li>Oprah is a noted truffle lover, especially at Funke</li>
+        <li>White truffle season brings out every A-lister to Italian restaurants</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item active">
+        <div class="faq-question">Where do celebrities eat truffle pasta?</div>
+        <div class="faq-answer">Celebrities order truffle pasta at Funke in Beverly Hills, Carbone in NYC, Giorgio Baldi in Santa Monica, and Cipriani locations worldwide. White truffle season (October-December) is peak time.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What is the most expensive truffle pasta?</div>
+        <div class="faq-answer">Fresh white Alba truffle pastas can cost $200-500+ per serving during peak season (October-December). The price varies based on truffle market rates, which can exceed $4,000 per pound.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">When is truffle season?</div>
+        <div class="faq-answer">White truffle season runs October-December. Black winter truffle is December-March. Black summer truffle is May-August. Each has distinct flavor profiles and price points.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/collections/best-italian/">Best Italian</a>
+      <a href="/dishes/black-cod-miso/">Black Cod Miso</a>
+      <a href="/restaurants/funke/">Funke</a>
+      <a href="/dishes/">All Dishes</a>
+    </div>
+    <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2025 CelebEats. <a href="/legal/terms/" style="color: var(--color-accent);">Terms</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
