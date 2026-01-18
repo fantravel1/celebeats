@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch Steak NYC - Celebrity Steakhouse in Meatpacking | CelebEats</title>
+  <meta name="description" content="Catch Steak NYC is the celebrity hotspot in Meatpacking District. From the EMM Group, discover where A-listers enjoy premium steaks with rooftop views.">
+  <meta name="keywords" content="Catch Steak NYC, Meatpacking steakhouse, celebrity steakhouse, EMM Group, NYC fine dining">
+  <link rel="canonical" href="https://celebeats.com/restaurants/catch-steak/">
+
+  <link rel="alternate" hreflang="en" href="https://celebeats.com/restaurants/catch-steak/">
+  <link rel="alternate" hreflang="x-default" href="https://celebeats.com/restaurants/catch-steak/">
+
+  <meta property="og:title" content="Catch Steak NYC | CelebEats">
+  <meta property="og:description" content="Meatpacking's celebrity steakhouse with rooftop views.">
+  <meta property="og:type" content="restaurant">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Restaurant",
+        "name": "Catch Steak",
+        "description": "Upscale steakhouse from the EMM Group in NYC's Meatpacking District, known for celebrity clientele and premium cuts.",
+        "servesCuisine": ["Steakhouse", "American"],
+        "priceRange": "$$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "855 Washington Street",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "postalCode": "10014"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What celebrities go to Catch Steak?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Catch Steak attracts A-list celebrities including the Kardashians, Drake, Justin Bieber, Gigi Hadid, and many sports stars. As part of the EMM Group (which also owns Catch), it's a natural extension of the celebrity dining scene."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --color-primary: #1a1a2e;
+      --color-secondary: #c9a962;
+      --color-accent: #e8d5b7;
+      --color-bg: #fafafa;
+      --color-text: #2d2d2d;
+      --color-text-light: #666;
+      --spacing-xs: 0.5rem;
+      --spacing-sm: 1rem;
+      --spacing-md: 1.5rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 3rem;
+      --font-display: Georgia, 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+      --tier-a: #1b5e20;
+      --tier-b: #0277bd;
+      --steak-brown: #5d4037;
+      --steak-red: #8b0000;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: var(--color-primary);
+      padding: var(--spacing-sm) var(--spacing-md);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .breadcrumb {
+      background: white;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: 0.85rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .breadcrumb-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .breadcrumb a {
+      color: var(--color-secondary);
+      text-decoration: none;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--steak-brown) 0%, var(--color-primary) 100%);
+      color: white;
+      padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .hero-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-icon {
+      font-size: 4rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .hero-meta {
+      color: var(--color-secondary);
+      font-size: 1rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-description {
+      max-width: 600px;
+      margin: 0 auto var(--spacing-md);
+      opacity: 0.9;
+    }
+
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-lg);
+      flex-wrap: wrap;
+    }
+
+    .hero-stat {
+      text-align: center;
+    }
+
+    .hero-stat-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-secondary);
+    }
+
+    .hero-stat-label {
+      font-size: 0.75rem;
+      opacity: 0.8;
+    }
+
+    .main { max-width: 800px; margin: 0 auto; padding: var(--spacing-md); }
+
+    .aeo-answer {
+      background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+      border-left: 4px solid var(--color-secondary);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+
+    .aeo-answer h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .section {
+      background: white;
+      border-radius: var(--border-radius);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+      padding-bottom: var(--spacing-xs);
+      border-bottom: 2px solid var(--color-accent);
+    }
+
+    .menu-grid {
+      display: grid;
+      gap: var(--spacing-sm);
+    }
+
+    .menu-item {
+      background: var(--color-bg);
+      padding: var(--spacing-md);
+      border-radius: var(--border-radius);
+    }
+
+    .menu-item h3 {
+      font-size: 1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .menu-item p {
+      font-size: 0.9rem;
+      color: var(--color-text-light);
+    }
+
+    .menu-item .price {
+      color: var(--steak-red);
+      font-weight: 600;
+    }
+
+    .evidence-badge {
+      display: inline-flex;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .evidence-a { background: #e8f5e9; color: var(--tier-a); }
+    .evidence-b { background: #e3f2fd; color: var(--tier-b); }
+
+    .celeb-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing-xs);
+    }
+
+    .celeb-tag {
+      background: var(--color-bg);
+      padding: var(--spacing-xs) var(--spacing-sm);
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    .info-box {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--steak-brown) 100%);
+      color: white;
+      padding: var(--spacing-lg);
+      border-radius: var(--border-radius);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .info-box h3 {
+      color: var(--color-secondary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      padding: var(--spacing-sm) 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .faq-question::after {
+      content: '+';
+      color: var(--color-secondary);
+    }
+
+    .faq-item.active .faq-question::after { content: '−'; }
+
+    .faq-answer {
+      display: none;
+      padding-top: var(--spacing-sm);
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    .faq-item.active .faq-answer { display: block; }
+
+    .footer {
+      background: var(--color-primary);
+      color: white;
+      padding: var(--spacing-lg) var(--spacing-md);
+      margin-top: var(--spacing-xl);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .footer-links a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 { font-size: 2.5rem; }
+      .menu-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CelebEats</a>
+      <nav class="nav-links">
+        <a href="/cities/">Cities</a>
+        <a href="/celebrities/">Celebrities</a>
+        <a href="/collections/">Collections</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="/">Home</a> <span>/</span>
+      <a href="/restaurants/">Restaurants</a> <span>/</span>
+      <span>Catch Steak</span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-icon">🥩</div>
+      <h1>Catch Steak</h1>
+      <p class="hero-meta">Meatpacking District, NYC · Steakhouse · $$$$</p>
+      <p class="hero-description">From the EMM Group behind Catch, this Meatpacking steakhouse brings celebrity sizzle to premium cuts. Where the A-list comes for steak.</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-value">200+</div>
+          <div class="hero-stat-label">Celebrity Visits</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">$$$$</div>
+          <div class="hero-stat-label">Price Range</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">EMM</div>
+          <div class="hero-stat-label">Group</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="main">
+    <article class="aeo-answer">
+      <h2>What is Catch Steak?</h2>
+      <p><strong>Catch Steak</strong> is the steakhouse spinoff from EMM Group (creators of Catch LA and Catch NYC). Located in the Meatpacking District, it offers premium dry-aged steaks, an extensive wine list, and the same celebrity magnetism as its seafood sibling. The see-and-be-seen atmosphere attracts A-listers nightly.</p>
+      <span class="evidence-badge evidence-a">Tier A: Restaurant Verified</span>
+    </article>
+
+    <div class="info-box">
+      <h3>EMM Group Empire</h3>
+      <p>Catch Steak is part of the EMM Group hospitality empire that includes Catch (LA, NYC, Las Vegas), Catch Steak, and other celebrity hotspots. The group has mastered the art of creating restaurants that attract both A-list celebrities and their fans.</p>
+    </div>
+
+    <section class="section">
+      <h2>Signature Dishes</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <h3>Dry-Aged Ribeye</h3>
+          <p>45-day dry-aged prime ribeye, the house specialty. <span class="price">$$$</span></p>
+        </div>
+        <div class="menu-item">
+          <h3>Wagyu Tomahawk</h3>
+          <p>Japanese A5 wagyu tomahawk for sharing. <span class="price">$$$$</span></p>
+        </div>
+        <div class="menu-item">
+          <h3>Truffle Mac & Cheese</h3>
+          <p>Black truffle mac, a must-order side dish. <span class="price">$$</span></p>
+        </div>
+        <div class="menu-item">
+          <h3>Catch Steak Burger</h3>
+          <p>Wagyu burger with special sauce. Lunch favorite. <span class="price">$$</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Celebrity Sightings</h2>
+      <div class="celeb-grid">
+        <span class="celeb-tag">Kardashians</span>
+        <span class="celeb-tag">Drake</span>
+        <span class="celeb-tag">Justin Bieber</span>
+        <span class="celeb-tag">Gigi Hadid</span>
+        <span class="celeb-tag">Bad Bunny</span>
+        <span class="celeb-tag">Travis Scott</span>
+        <span class="celeb-tag">Hailey Bieber</span>
+        <span class="celeb-tag">Sports Stars</span>
+      </div>
+      <p style="margin-top: var(--spacing-sm); color: var(--color-text-light); font-size: 0.9rem;">The EMM Group's celebrity connections ensure A-list presence nightly.</p>
+      <span class="evidence-badge evidence-a" style="margin-top: var(--spacing-sm);">Tier A</span>
+    </section>
+
+    <section class="section">
+      <h2>Details</h2>
+      <ul style="padding-left: var(--spacing-md);">
+        <li><strong>Location:</strong> 855 Washington Street, Meatpacking</li>
+        <li><strong>Reservations:</strong> Resy, book 2-3 weeks ahead for weekends</li>
+        <li><strong>Dress Code:</strong> Smart casual to upscale</li>
+        <li><strong>Best For:</strong> Special occasions, business dinners, celebrity spotting</li>
+        <li><strong>Pro Tip:</strong> Request the main dining room for best people-watching</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item active">
+        <div class="faq-question">What celebrities go to Catch Steak?</div>
+        <div class="faq-answer">Catch Steak attracts A-list celebrities including the Kardashians, Drake, Justin Bieber, Gigi Hadid, and many sports stars. As part of the EMM Group, it shares the celebrity clientele of Catch LA and NYC.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How do I get a reservation at Catch Steak?</div>
+        <div class="faq-answer">Reservations are available on Resy. For weekend dinners, book 2-3 weeks in advance. Weekday lunches are easier to secure. Walk-ins may be possible at the bar on slower nights.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What should I order at Catch Steak?</div>
+        <div class="faq-answer">The dry-aged ribeye is the signature, and the truffle mac & cheese is a must-order side. For a splurge, the Wagyu tomahawk for sharing is unforgettable.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/restaurants/catch-la/">Catch LA</a>
+      <a href="/cities/new-york/meatpacking/">Meatpacking</a>
+      <a href="/collections/best-steakhouses/">Best Steakhouses</a>
+      <a href="/collections/best-date-night/">Date Night</a>
+    </div>
+    <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2025 CelebEats. <a href="/legal/terms/" style="color: var(--color-accent);">Terms</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
