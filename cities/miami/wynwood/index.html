@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wynwood Celebrity Restaurants & Dining Guide | CelebEats</title>
+  <meta name="description" content="Discover where celebrities dine in Miami's Wynwood arts district. From KYU to Coyo Taco, explore A-list dining among the murals.">
+  <meta name="keywords" content="Wynwood restaurants, Miami arts district dining, celebrity restaurants Wynwood, Art Basel restaurants">
+  <link rel="canonical" href="https://celebeats.com/cities/miami/wynwood/">
+
+  <link rel="alternate" hreflang="en" href="https://celebeats.com/cities/miami/wynwood/">
+  <link rel="alternate" hreflang="es" href="https://celebeats.com/es/cities/miami/wynwood/">
+  <link rel="alternate" hreflang="x-default" href="https://celebeats.com/cities/miami/wynwood/">
+
+  <meta property="og:title" content="Wynwood Miami Celebrity Dining Guide">
+  <meta property="og:description" content="Where art meets appetite in Miami's coolest neighborhood.">
+  <meta property="og:type" content="place">
+  <meta property="og:url" content="https://celebeats.com/cities/miami/wynwood/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Place",
+        "name": "Wynwood",
+        "description": "Miami's vibrant arts district known for colorful murals, galleries, and trendy restaurants that attract celebrities, especially during Art Basel.",
+        "geo": {"@type": "GeoCoordinates", "latitude": 25.8011, "longitude": -80.1996},
+        "containedInPlace": {"@type": "City", "name": "Miami"}
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Where do celebrities eat in Wynwood?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrities in Wynwood dine at KYU for Asian BBQ, Coyo Taco for late-night tacos with a hidden speakeasy, Alter for fine dining, and 1-800-Lucky food hall. During Art Basel, every Wynwood restaurant sees major celebrity traffic."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best restaurant in Wynwood Miami?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "KYU is widely considered Wynwood's best restaurant, known for its wood-fired Asian BBQ and celebrity following. Alter offers Wynwood's finest dining experience with chef-driven tasting menus, while Coyo Taco is the go-to for casual late-night vibes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --color-primary: #1a1a2e;
+      --color-secondary: #c9a962;
+      --color-accent: #e8d5b7;
+      --color-bg: #fafafa;
+      --color-text: #2d2d2d;
+      --color-text-light: #666;
+      --spacing-xs: 0.5rem;
+      --spacing-sm: 1rem;
+      --spacing-md: 1.5rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 3rem;
+      --font-display: Georgia, 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+      --tier-a: #1b5e20;
+      --tier-b: #0277bd;
+      --wynwood-pink: #ff6b6b;
+      --wynwood-teal: #4ecdc4;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: var(--color-primary);
+      padding: var(--spacing-sm) var(--spacing-md);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .breadcrumb {
+      background: white;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: 0.85rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .breadcrumb-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .breadcrumb a {
+      color: var(--color-secondary);
+      text-decoration: none;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--wynwood-pink) 0%, var(--wynwood-teal) 50%, var(--color-primary) 100%);
+      color: white;
+      padding: var(--spacing-xl) var(--spacing-md);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .hero-subtitle {
+      color: white;
+      font-size: 1.1rem;
+      margin-bottom: var(--spacing-sm);
+      opacity: 0.9;
+    }
+
+    .hero-description {
+      max-width: 600px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    .main { max-width: 1200px; margin: 0 auto; padding: var(--spacing-md); }
+
+    .neighborhood-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing-xs);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .neighborhood-nav a {
+      background: white;
+      padding: var(--spacing-xs) var(--spacing-sm);
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      color: var(--color-text);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .neighborhood-nav a:hover {
+      background: var(--wynwood-pink);
+      color: white;
+    }
+
+    .aeo-answer {
+      background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+      border-left: 4px solid var(--color-secondary);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+
+    .aeo-answer h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .section {
+      background: white;
+      border-radius: var(--border-radius);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--color-primary);
+      margin-bottom: var(--spacing-sm);
+      padding-bottom: var(--spacing-xs);
+      border-bottom: 2px solid var(--color-accent);
+    }
+
+    .restaurant-grid {
+      display: grid;
+      gap: var(--spacing-md);
+    }
+
+    .restaurant-card {
+      background: var(--color-bg);
+      border-radius: var(--border-radius);
+      padding: var(--spacing-md);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+
+    .restaurant-card:hover {
+      transform: translateY(-2px);
+    }
+
+    .restaurant-header {
+      display: flex;
+      gap: var(--spacing-sm);
+      align-items: flex-start;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .restaurant-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--wynwood-pink), var(--wynwood-teal));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .restaurant-title h3 {
+      font-size: 1.1rem;
+      color: var(--color-primary);
+    }
+
+    .restaurant-title .meta {
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+    }
+
+    .restaurant-description {
+      font-size: 0.9rem;
+      color: var(--color-text-light);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .restaurant-celebs strong {
+      color: var(--color-secondary);
+    }
+
+    .evidence-badge {
+      display: inline-flex;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: var(--spacing-sm);
+    }
+
+    .evidence-a { background: #e8f5e9; color: var(--tier-a); }
+    .evidence-b { background: #e3f2fd; color: var(--tier-b); }
+
+    .highlight-box {
+      background: linear-gradient(135deg, var(--wynwood-pink) 0%, var(--wynwood-teal) 100%);
+      color: white;
+      padding: var(--spacing-lg);
+      border-radius: var(--border-radius);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .highlight-box h3 {
+      font-family: var(--font-display);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      padding: var(--spacing-sm) 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .faq-question::after {
+      content: '+';
+      color: var(--color-secondary);
+    }
+
+    .faq-item.active .faq-question::after { content: '−'; }
+
+    .faq-answer {
+      display: none;
+      padding-top: var(--spacing-sm);
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    .faq-item.active .faq-answer { display: block; }
+
+    .footer {
+      background: var(--color-primary);
+      color: white;
+      padding: var(--spacing-lg) var(--spacing-md);
+      margin-top: var(--spacing-xl);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .footer-links a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 { font-size: 2.5rem; }
+      .restaurant-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CelebEats</a>
+      <nav class="nav-links">
+        <a href="/cities/">Cities</a>
+        <a href="/celebrities/">Celebrities</a>
+        <a href="/collections/">Collections</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="/">Home</a> <span>/</span>
+      <a href="/cities/miami/">Miami</a> <span>/</span>
+      <span>Wynwood</span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Wynwood</h1>
+    <p class="hero-subtitle">Where Art Meets Appetite</p>
+    <p class="hero-description">Miami's vibrant arts district serves up celebrity dining among world-famous murals. From Asian BBQ to late-night tacos, Wynwood's food scene is as colorful as its walls.</p>
+  </section>
+
+  <main class="main">
+    <nav class="neighborhood-nav">
+      <a href="/cities/miami/south-beach/">South Beach</a>
+      <a href="/cities/miami/brickell/">Brickell</a>
+      <a href="/cities/miami/design-district/">Design District</a>
+      <a href="/cities/miami/coconut-grove/">Coconut Grove</a>
+    </nav>
+
+    <article class="aeo-answer">
+      <h2>Where do celebrities eat in Wynwood?</h2>
+      <p>Celebrities in Wynwood dine at <strong>KYU</strong> for wood-fired Asian BBQ, <strong>Coyo Taco</strong> for late-night tacos with a hidden speakeasy, <strong>Alter</strong> for chef-driven fine dining, and <strong>1-800-Lucky</strong> food hall. During <strong>Art Basel</strong>, every Wynwood restaurant sees major celebrity traffic.</p>
+    </article>
+
+    <div class="highlight-box">
+      <h3>Art Basel Week</h3>
+      <p>Every December, Art Basel transforms Wynwood into celebrity central. During this week, expect to see international art collectors, A-list celebrities, and fashion icons dining at every restaurant in the neighborhood. Reservations become nearly impossible—plan months ahead.</p>
+    </div>
+
+    <section class="section">
+      <h2>Top Celebrity Restaurants</h2>
+      <div class="restaurant-grid">
+        <a href="/restaurants/kyu/" class="restaurant-card">
+          <div class="restaurant-header">
+            <div class="restaurant-icon">🔥</div>
+            <div class="restaurant-title">
+              <h3>KYU</h3>
+              <span class="meta">Asian BBQ · $$$</span>
+            </div>
+          </div>
+          <p class="restaurant-description">Wood-fired Asian BBQ that put Wynwood on the culinary map. The cauliflower is legendary.</p>
+          <p class="restaurant-celebs"><strong>Spotted:</strong> Pharrell, DJ Khaled, Victoria Beckham</p>
+          <span class="evidence-badge evidence-a">Tier A</span>
+        </a>
+
+        <a href="/restaurants/alter/" class="restaurant-card">
+          <div class="restaurant-header">
+            <div class="restaurant-icon">⭐</div>
+            <div class="restaurant-title">
+              <h3>Alter</h3>
+              <span class="meta">Fine Dining · $$$$</span>
+            </div>
+          </div>
+          <p class="restaurant-description">Chef Brad Kilgore's tasting menu destination. Wynwood's most refined dining experience.</p>
+          <p class="restaurant-celebs"><strong>Spotted:</strong> Art collectors, culinary elite</p>
+          <span class="evidence-badge evidence-a">Tier A</span>
+        </a>
+
+        <a href="/restaurants/coyo-taco/" class="restaurant-card">
+          <div class="restaurant-header">
+            <div class="restaurant-icon">🌮</div>
+            <div class="restaurant-title">
+              <h3>Coyo Taco</h3>
+              <span class="meta">Mexican · $$</span>
+            </div>
+          </div>
+          <p class="restaurant-description">Late-night taco spot with a hidden speakeasy in the back. The ultimate Wynwood vibe.</p>
+          <p class="restaurant-celebs"><strong>Spotted:</strong> Art Basel crowd, DJs, influencers</p>
+          <span class="evidence-badge evidence-a">Tier A</span>
+        </a>
+
+        <a href="/restaurants/1800-lucky/" class="restaurant-card">
+          <div class="restaurant-header">
+            <div class="restaurant-icon">🍜</div>
+            <div class="restaurant-title">
+              <h3>1-800-Lucky</h3>
+              <span class="meta">Food Hall · $$</span>
+            </div>
+          </div>
+          <p class="restaurant-description">Asian food hall with multiple vendors. Great for groups who can't decide.</p>
+          <p class="restaurant-celebs"><strong>Spotted:</strong> Casual celebrity outings</p>
+          <span class="evidence-badge evidence-b">Tier B</span>
+        </a>
+
+        <a href="/restaurants/beaker-and-gray/" class="restaurant-card">
+          <div class="restaurant-header">
+            <div class="restaurant-icon">🍸</div>
+            <div class="restaurant-title">
+              <h3>Beaker & Gray</h3>
+              <span class="meta">American · $$$</span>
+            </div>
+          </div>
+          <p class="restaurant-description">Inventive cocktails and shareable plates. Perfect for gallery hopping fuel.</p>
+          <p class="restaurant-celebs"><strong>Spotted:</strong> Local celebs, art world</p>
+          <span class="evidence-badge evidence-b">Tier B</span>
+        </a>
+
+        <a href="/restaurants/wynwood-kitchen/" class="restaurant-card">
+          <div class="restaurant-header">
+            <div class="restaurant-icon">🎨</div>
+            <div class="restaurant-title">
+              <h3>Wynwood Kitchen & Bar</h3>
+              <span class="meta">Latin · $$</span>
+            </div>
+          </div>
+          <p class="restaurant-description">Located inside Wynwood Walls. Dine surrounded by famous murals.</p>
+          <p class="restaurant-celebs"><strong>Spotted:</strong> Tourists and celebs alike</p>
+          <span class="evidence-badge evidence-b">Tier B</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Wynwood Dining Tips</h2>
+      <ul style="padding-left: var(--spacing-md);">
+        <li><strong>Art Basel (December):</strong> Book 2-3 months ahead or forget it</li>
+        <li><strong>Parking:</strong> Use valet or rideshare—street parking is brutal</li>
+        <li><strong>Gallery Hopping:</strong> Most galleries open until 10pm on weekends</li>
+        <li><strong>Late Night:</strong> Coyo Taco's speakeasy is the move after midnight</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item active">
+        <div class="faq-question">Where do celebrities eat in Wynwood?</div>
+        <div class="faq-answer">Celebrities dine at KYU for Asian BBQ, Coyo Taco for late-night tacos, Alter for fine dining, and 1-800-Lucky food hall. Art Basel week sees the highest celebrity traffic.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What is the best restaurant in Wynwood Miami?</div>
+        <div class="faq-answer">KYU is widely considered Wynwood's best restaurant for its wood-fired Asian BBQ. Alter offers the finest dining experience with chef-driven tasting menus.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Is Wynwood good for food?</div>
+        <div class="faq-answer">Yes! Wynwood has evolved into one of Miami's best food destinations with everything from casual tacos to fine dining, all walkable among world-famous street art.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/cities/miami/">Miami Guide</a>
+      <a href="/restaurants/kyu/">KYU</a>
+      <a href="/collections/late-night/">Late Night</a>
+      <a href="/celebrities/">Celebrities</a>
+    </div>
+    <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2025 CelebEats. <a href="/legal/terms/" style="color: var(--color-accent);">Terms</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
